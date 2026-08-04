@@ -17,19 +17,18 @@ Este repositório contém o código-fonte, esquemas de montagem e documentação
 | Componente | Descrição |
 |------------|-----------|
 | **Microcontrolador** | ESP32 C3 Mini |
-| **Sensor de Temperatura** | Sensor de temperatura ambiente |
-| **Sensor de Umidade** | Sensor de umidade relativa do ar |
-| **Sensor de Luminosidade** | LDR (Light Dependent Resistor) |
+| **Sensor SHT** | Sensor de temperatura ambiente e umidade relativa do ar|
+| **LDR (Light Dependent Resistor)** | Sensor de Luminosidade |
 
 ---
 
 ## Funcionalidades
 
-- 📊 **Leitura de Temperatura** — Monitoramento contínuo da temperatura ambiente
-- 💧 **Leitura de Umidade** — Acompanhamento da umidade relativa do ar
-- 💡 **Leitura de Luminosidade** — Detecção da intensidade de luz ambiente via LDR
-- 🌐 **Conectividade IoT** — Comunicação via Wi-Fi do ESP32 para envio de dados
-- 📡 **Transmissão de Dados** — Envio das leituras para dashboard ou plataforma de monitoramento
+- **Leitura de Temperatura** — Monitoramento contínuo da temperatura ambiente
+- **Leitura de Umidade** — Acompanhamento da umidade relativa do ar
+- **Leitura de Luminosidade** — Detecção da intensidade de luz ambiente via LDR
+- **Conectividade IoT** — Comunicação via Wi-Fi do ESP32 para envio de dados
+- **Transmissão de Dados** — Envio das leituras para dashboard ou plataforma de monitoramento
 
 
 ---
