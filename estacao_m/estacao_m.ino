@@ -24,12 +24,13 @@ WiFiClient client;
  void setup()
 {
     // Inicia a comunicação com o computador
-    Serial.begin(19200);
+    Serial.begin(115200);
 
     // Inicia o sensor DHT11
     dht.begin();
 
     // Inicia a conexão com a rede Wi-Fi
+    WiFi.mode(WIFI_STA);
     WiFi.begin(ssid, password);
 
     Serial.println("Conectando ao Wi-Fi...");
