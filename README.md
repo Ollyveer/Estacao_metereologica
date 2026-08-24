@@ -33,6 +33,13 @@ Este repositório contém o código-fonte, esquemas de montagem e documentação
 
 ---
 
+#  Monitoramento
+
+Os dados enviados podem ser visualizados diretamente na plataforma ThingSpeak.
+
+Acesse o dashboard público do projeto:
+https://thingspeak.mathworks.com/channels/3433718
+
 ## Como Usar
 
 ### Pré-requisitos
